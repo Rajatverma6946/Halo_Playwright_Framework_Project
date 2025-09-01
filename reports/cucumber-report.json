@@ -1,0 +1,71 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "ecommerce-validation;placing-the-order",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "placing the order",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 578820099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "a login to Ecommerce application with \"rajatv32@gmail.com\" and \"Rajat@1234\"",
+            "match": {
+              "location": "features\\stepdefinitions\\loginstep.spec.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2786820099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Add \"zara coat 3\" to cart",
+            "match": {
+              "location": "features\\stepdefinitions\\loginstep.spec.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 174166199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 355899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "ecommerce-validation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Ecommerce validation",
+    "tags": [],
+    "uri": "features\\ecommerce.feature"
+  }
+]
